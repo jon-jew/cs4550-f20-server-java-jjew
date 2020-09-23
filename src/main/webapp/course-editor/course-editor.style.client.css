@@ -1,0 +1,67 @@
+.wbdv-course-title {
+    display: inline-block;
+    background: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.wbdv-close {
+    font-size: 30px;
+    margin-top: 26px;
+    margin-right: 10px;
+}
+
+.widget {
+    border: rgb(218, 218, 218) solid 1px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.widget-row {
+    background: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.btn-add-widget {
+    margin-bottom: 10px;
+}
+
+.widget-type {
+    width: 100px;
+}
+
+.widget-header-right {
+    display: inline-block;
+}
+
+.widget-heading {
+    background: rgb(238, 238, 238);
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 15px;
+    float: left;
+}
+
+.widget .form-control {
+    margin-top: 10px;
+}
+
+.widget .image {
+    margin-top: 80px;
+    background: #f8f9fa;
+    padding: 50px;
+}
+
+.widget-list {
+    margin-top: 80px;
+}
+
+.btn-list-item {
+    margin-top: 10px;
+    margin-left: 70%;
+}
+

@@ -1,0 +1,21 @@
+body {
+    background: #ebebeb;
+}
+
+.wbdv-navbar {
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.navbar-text {
+    margin-left: 20px;
+} 
+
+.wbdv-label {
+    margin-left: 15px;
+}
+
+.logout-text {
+    margin-left: 5px;
+    font-size: 15px;
+}

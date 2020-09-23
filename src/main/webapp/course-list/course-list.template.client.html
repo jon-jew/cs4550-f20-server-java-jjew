@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whiteboard- Course Manager</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="../css/styles.css" rel="stylesheet"/>
+    <link href="./course-list.style.client.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navbar wbdv-navbar sticky-top navbar-light bg-light">
+        <div>
+            <i class="fas fa-bars wbdv-field wbdv-hamburger"></i>
+            <a class="navbar-brand wbdv-label">Whiteboard</a>
+        </div>
+        <form class="form-inline">
+          <div class="input-group is-invalid">
+            <input class="form-control wbdv-field wbdv-new-course" type="search" placeholder="New Course Name" aria-label="Search">
+            <div class="input-group-append">
+               <button class="btn btn-outline-secondary wbdv-button wbdv-add-course" type="button">
+                <i class="fas fa-plus"></i>
+               </button>
+            </div>
+          </div>
+          <span class="navbar-text">
+            Welcome <strong>Jon Jew</strong>!
+            <a class="logout-text" href="../login/login.template.client.html">Logout</a>
+        </span>
+        </form>
+    </nav>
+    <div class="container">
+        <h2 class="wbdv-course-manager">Course Manager</h2>
+        <table class="table">
+            <thead class="table-header">
+                <tr>
+                    <th class="wbdv-header wbdv-title">Title</th>
+                    <th class="wbdv-header wbdv-owner">Owner</th>
+                    <th class="wbdv-header wbdv-last-modified">Last Modified</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="wbdv-row wbdv-course">
+                    <td>
+                        <i class="fas fa-file course-list-icon wbdv-row wbdv-icon"></i>
+                        <a class="wbdv-row wbdv-title" href="../course-editor/course-editor.template.client.html">CS4550</a>
+                    </td>
+                    <td class="wbdv-row wbdv-owner">Jon Jew</td>
+                    <td class="wbdv-row wbdv-modified-date">4:20am</td>
+                    <td class="wbdv-row wbdv-button wbdv-delete">
+                        <i class="fas fa-cog course-list-icon"></i>
+                        <i class="fas fa-trash course-list-icon"></i>
+                    </td>
+                </tr>
+                <tr class="wbdv-row wbdv-course">
+                    <td>
+                        <i class="fas fa-file course-list-icon wbdv-row wbdv-icon"></i>
+                        <a class="wbdv-row wbdv-title" href="../course-editor/course-editor.template.client.html">CS4550</a>
+                    </td>
+                    <td class="wbdv-row wbdv-owner">Jon Jew</td>
+                    <td class="wbdv-row wbdv-modified-date">4:20am</td>
+                    <td class="wbdv-row wbdv-button wbdv-delete">
+                        <i class="fas fa-cog course-list-icon"></i>
+                        <i class="fas fa-trash course-list-icon"></i>
+                    </td>
+                </tr>
+                <tr class="wbdv-row wbdv-course">
+                    <td>
+                        <i class="fas fa-file course-list-icon wbdv-row wbdv-icon"></i>
+                        <a class="wbdv-row wbdv-title" href="../course-editor/course-editor.template.client.html">CS4550</a>
+                    </td>
+                    <td class="wbdv-row wbdv-owner">Jon Jew</td>
+                    <td class="wbdv-row wbdv-modified-date">4:20am</td>
+                    <td class="wbdv-row wbdv-button wbdv-delete">
+                        <i class="fas fa-cog course-list-icon"></i>
+                        <i class="fas fa-trash course-list-icon"></i>
+                    </td>
+                </tr>
+                <tr class="wbdv-row wbdv-course">
+                    <td>
+                        <i class="fas fa-file course-list-icon wbdv-row wbdv-icon"></i>
+                        <a class="wbdv-row wbdv-title" href="../course-editor/course-editor.template.client.html">CS4550</a>
+                    </td>
+                    <td class="wbdv-row wbdv-owner">Jon Jew</td>
+                    <td class="wbdv-row wbdv-modified-date">4:20am</td>
+                    <td class="wbdv-row wbdv-button wbdv-delete">
+                        <i class="fas fa-cog course-list-icon"></i>
+                        <i class="fas fa-trash course-list-icon"></i>
+                    </td>
+                </tr>                                     
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

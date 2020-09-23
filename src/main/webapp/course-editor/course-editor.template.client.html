@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whiteboard- CS4550</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="../css/styles.css" rel="stylesheet"/>
+    <link href="./course-editor.style.client.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <nav class="navbar wbdv-navbar sticky-top navbar-light bg-light">
+        <div>
+            <i class="fas fa-bars wbdv-field wbdv-hamburger"></i>
+            <a class="navbar-brand wbdv-label wbdv-course-manager">Whiteboard</a>
+        </div>
+        <span class="navbar-text">
+            Welcome <strong>Jon Jew</strong>!
+            <a class="logout-text" href="../login/login.template.client.html">Logout</a>
+        </span>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <a href="../course-list/course-list.template.client.html">
+                <i class="far fa-times-circle wbdv-course-editor wbdv-close"></i>
+            </a>
+            <h2 class="wbdv-course-title"><strong>CS4550</strong> Web Development</h2>
+        </div>
+        <div class="row widget-row">
+            <div class="col-4">
+                <ul class="list-group">
+                    <li class="list-group-item">Module 1 <i class="fas fa-times float-right"></i> </li>
+                    <li class="list-group-item">Module 2 <i class="fas fa-times float-right"></i></li>
+                    <li class="list-group-item active">Module 3 <i class="fas fa-times float-right"></i></li>
+                    <li class="list-group-item">Module 4 <i class="fas fa-times float-right"></i></li>
+                    <li class="list-group-item">Module 5 <i class="fas fa-times float-right"></i></li>
+                    <li class="list-group-item">Module 6 <i class="fas fa-times float-right"></i></li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Lesson 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link active">Lesson 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Lesson 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Lesson 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Lesson 5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Lesson 1</a>
+                    </li>
+                </ul>
+                <br/>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Topic 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link active">Topic 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Topic 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Topic 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Topic 5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"  class="nav-link">Topic 1</a>
+                    </li>
+                </ul>
+                <br/>
+                <button class='btn btn-success btn-add-widget'>Add Widget</button>
+                <div class="widget">
+                    <div class='widget-header'>
+                        <h3 class='widget-heading'><i class="fas fa-heading"></i> Heading Widget</h3>
+                        <div class="float-right">
+                            <a class="widget-header-right btn btn-warning">
+                                <i class="fas fa-arrow-up"></i>
+                            </a>
+                            <a class="widget-header-right btn btn-warning">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                            <select class="widget-header-right widget-type form-control form-control-sm">
+                                <option selected="selected">Heading</option>
+                                <option>Paragraph</option>
+                                <option>List</option>
+                                <option>Image</option>
+                            </select>
+                            <a class="btn btn-danger">
+                                <i class="far fa-trash-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <input class="form-control"/>
+                    <select class="form-control">
+                        <option>Heading 1</option>
+                        <option>Heading 2</option>
+                        <option>Heading 3</option>
+                        <option>Heading 4</option>
+                        <option>Heading 5</option>
+                    </select>
+                    <input class="form-control" title="Name your widget" placeholder="Widget Name"/>
+                </div>
+                <div class="widget">
+                    <div class='widget-header'>
+                        <h3 class='widget-heading'><i class="fas fa-align-left"></i> Paragraph Widget</h3>
+                        <div class="float-right">
+                            <a class="widget-header-right btn btn-warning">
+                                <i class="fas fa-arrow-up"></i>
+                            </a>
+                            <a class="widget-header-right btn btn-warning">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                            <select class="widget-header-right widget-type form-control form-control-sm">
+                                <option>Heading</option>
+                                <option selected="selected">Paragraph</option>
+                                <option>List</option>
+                                <option>Image</option>
+                            </select>
+                            <a class="btn btn-danger">
+                                <i class="far fa-trash-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <textarea class="form-control" placeholder="Required example textarea"></textarea>
+                    <input class="form-control"title="Name your widget" placeholder="Widget Name"/>
+                </div>
+                <div class="widget">
+                    <div class='widget-header'>
+                        <h3 class='widget-heading'><i class="far fa-image"></i> Image Widget</h3>
+                        <div class="float-right">
+                            <a class="widget-header-right btn btn-warning">
+                                <i class="fas fa-arrow-up"></i>
+                            </a>
+                            <a class="widget-header-right btn btn-warning">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                            <select class="widget-header-right widget-type form-control form-control-sm">
+                                <option>Heading</option>
+                                <option>Paragraph</option>
+                                <option>List</option>
+                                <option selected="selected">Image</option>
+                            </select>
+                            <a class="btn btn-danger">
+                                <i class="far fa-trash-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="https://cdn.onlinewebfonts.com/svg/img_148071.png" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <input class="form-control"title="Image Source" placeholder="Image URL"/>
+                    <input class="form-control"title="Name your widget" placeholder="Widget Name"/>
+                </div>
+                <div class="widget">
+                    <div class='widget-header'>
+                        <h3 class='widget-heading'><i class="fas fa-list-ul"></i> List Widget</h3>
+                        <div class="float-right">
+                            <a class="widget-header-right btn btn-warning">
+                                <i class="fas fa-arrow-up"></i>
+                            </a>
+                            <a class="widget-header-right btn btn-warning">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                            <select class="widget-header-right widget-type form-control form-control-sm">
+                                <option>Heading</option>
+                                <option>Paragraph</option>
+                                <option selected="selected">List</option>
+                                <option>Image</option>
+                            </select>
+                            <a class="btn btn-danger">
+                                <i class="far fa-trash-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class='widget-list'>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input class="form-control" placeholder="List Item"/>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-control" placeholder="List Item"/>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-control" placeholder="List Item"/>
+                            </li>
+                            <button class='btn btn-success btn-list-item'>Add List Item</button>
+
+                        </ul>
+                    </div>
+                    <input class="form-control"title="Name your widget" placeholder="Widget Name"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

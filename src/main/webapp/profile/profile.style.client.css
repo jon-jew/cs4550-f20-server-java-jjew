@@ -1,0 +1,24 @@
+.profile-container {
+    max-width: 600px;
+    background: #FFF;
+    padding: 60px 45px;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+.wbdv-button {
+    float: right;
+    width: 80px;
+}
+
+.profile-header {
+    margin-bottom: 15px;
+}
+
+.wbdv-update {
+    margin-right: 10px;
+}
+
+.profile-btn-row {
+    float: right;
+}

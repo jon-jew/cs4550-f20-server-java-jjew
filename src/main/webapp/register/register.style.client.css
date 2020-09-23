@@ -1,0 +1,15 @@
+.login-container {
+    max-width: 600px;
+    background: #FFF;
+    padding: 60px 45px;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+.login-welcome {
+    margin-bottom: 20px;
+}
+
+.login-row {
+    float: right;
+}
