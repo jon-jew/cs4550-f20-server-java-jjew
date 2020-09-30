@@ -67,6 +67,10 @@
                 row.find(`td .${properties[p].classname}`).replaceWith(element);
             }
 
+            const selectElement =
+            `<select id="input-role-${id}" class="form-control wbdv-input"><option value="Faculty">Faculty</option><option value="Student">Student</option><option value="Admin">Admin</option></select>`
+            row.find('td .wbdv-role').replaceWith(selectElement);
+
             editedUserInput = jQuery('.wbdv-input');
             editedUserInput.change(updateUserProperty);
             selectedUsersList.push(id);
@@ -78,6 +82,10 @@
                 const element = `<div class='${properties[p].classname}'>${value}</input>`
                 row.find(`td #input-${name}-${id}`).replaceWith(element);
             }
+
+            const value = row.find(`td #input-role-${id}`).val();
+            const element = `<div class="wbdv-role">${value}</div>`;
+            row.find(`td #input-role-${id}`).replaceWith(element);
 
             row.css('background-color', '#FFF');
             const index = selectedUsersList.indexOf(id);

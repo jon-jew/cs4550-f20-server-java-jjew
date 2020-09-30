@@ -16,6 +16,11 @@
     margin-right: 10px;
 }
 
+.title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .btn .fa {
     font-size: 15px;
 }
@@ -33,4 +38,5 @@
 .wbdv-input {
     border: none;
     padding: 5px 10px;
+    border-radius: 10px;
 }
