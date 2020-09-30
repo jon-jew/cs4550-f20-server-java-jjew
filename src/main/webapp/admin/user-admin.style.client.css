@@ -1,0 +1,36 @@
+.wbdv-hidden {
+    display: none;
+}
+
+.table-container {
+    background: #FFF;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+.wbdv-user {
+    transition: all 0.5s;
+}
+
+.wbdv-update {
+    margin-right: 10px;
+}
+
+.btn .fa {
+    font-size: 15px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+
+.wbdv-input {
+    border: none;
+    padding: 5px 10px;
+}
